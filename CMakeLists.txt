@@ -2,6 +2,7 @@ cmake_minimum_required(VERSION 2.8)
 project(ORB_SLAM2)
 
 IF(NOT CMAKE_BUILD_TYPE)
+  MESSAGE("Setting build type...")
   SET(CMAKE_BUILD_TYPE Release)
 ENDIF()
 
@@ -38,6 +39,10 @@ endif()
 
 find_package(Eigen3 3.1.0 REQUIRED)
 find_package(Pangolin REQUIRED)
+
+message(STATUS "Eigen3 version: ${EIGEN3_VERSION}")
+message(STATUS "OpenCV version: ${OPENCV_VERSION}")
+message(STATUS "Pangolin version: ${PANGOLIN_VERSION}")
 
 include_directories(
 ${PROJECT_SOURCE_DIR}
