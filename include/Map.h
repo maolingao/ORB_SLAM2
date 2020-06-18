@@ -18,8 +18,7 @@
 * along with ORB-SLAM2. If not, see <http://www.gnu.org/licenses/>.
 */
 
-#ifndef MAP_H
-#define MAP_H
+#pragma once
 
 #include "MapPoint.h"
 #include "KeyFrame.h"
@@ -81,5 +80,3 @@ protected:
 };
 
 } //namespace ORB_SLAM
-
-#endif // MAP_H

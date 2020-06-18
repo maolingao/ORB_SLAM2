@@ -17,10 +17,7 @@
 * You should have received a copy of the GNU General Public License
 * along with ORB-SLAM2. If not, see <http://www.gnu.org/licenses/>.
 */
-
-
-#ifndef SYSTEM_H
-#define SYSTEM_H
+#pragma once
 
 #include <unistd.h>
 #include<string>
@@ -178,5 +175,3 @@ private:
 };
 
 }// namespace ORB_SLAM
-
-#endif // SYSTEM_H

@@ -18,8 +18,7 @@
 * along with ORB-SLAM2. If not, see <http://www.gnu.org/licenses/>.
 */
 
-#ifndef KEYFRAME_H
-#define KEYFRAME_H
+#pragma once
 
 #include "MapPoint.h"
 #include "Thirdparty/DBoW2/DBoW2/BowVector.h"
@@ -234,5 +233,3 @@ protected:
 };
 
 } //namespace ORB_SLAM
-
-#endif // KEYFRAME_H
